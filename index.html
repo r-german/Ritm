@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <link rel="stylesheet" href="Ritm_Main/Main.css">
+        <link rel="shortcut icon" type="image/x-icon" href="">
+        <title>Main</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="header__logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="74" height="39" viewBox="0 0 74 39" fill="none">
+                        <path d="M4.66203 28.0666C3.66797 28.0666 2.88925 27.7963 2.88925 26.6355V11.6989C2.88925 9.68305 0 10.8822 0 9.19275C0 8.3037 0.435083 7.96846 0.839195 7.902C0.839195 7.902 4.48947 7.47077 5.36996 7.35705C6.35959 7.23152 6.68701 7.88871 6.8345 9.62398C6.88759 10.2856 6.90529 10.5647 6.90529 10.5647H7.17224C7.97309 8.07331 9.95972 7.16211 11.4951 7.16211C13.023 7.16211 13.992 7.41612 13.992 8.92396C13.992 10.4259 13.6321 11.346 12.9183 11.346H11.3431C8.71347 11.346 7.21059 13.189 7.21059 15.3437V26.2516C7.21059 27.7358 5.64723 28.0666 4.66055 28.0666H4.66203Z" fill="white"/>
+                        <path d="M34.592 2.30812C33.9549 2.30812 33.0272 2.68914 32.7072 3.40097C32.3901 4.11575 32.1452 4.65332 31.9594 5.05649C31.2957 6.55104 30.8252 6.98375 29.2412 7.48883C28.9227 7.58187 28.6277 7.67491 28.4655 7.72512C27.9758 7.892 27.7944 8.19032 27.6661 8.65257C27.6012 8.88738 27.5422 9.12958 27.4862 9.33191C27.3239 10.0319 27.3992 10.4764 30.0008 10.4764C30.0008 10.4764 27.3697 21.5364 26.7797 24.0411C26.1927 26.5414 27.2738 28.033 29.8843 28.033H31.7293C34.592 28.033 35.5212 27.3521 35.7513 26.3051C35.8634 25.7793 35.7896 25.3835 35.7144 25.1384C35.5669 24.7352 35.1599 24.9434 33.9873 25.0911C31.8341 25.3422 30.9123 24.3822 31.3827 22.5214C31.7293 21.0963 34.0626 11.6461 34.1879 11.1351C34.3133 10.63 34.6097 10.4764 35.0714 10.4764H38.4591C38.9384 10.4764 39.3573 10.2549 39.5608 9.37621C39.6213 9.11334 39.6862 8.784 39.7334 8.59349C39.8042 8.14601 39.7467 7.7709 39.1774 7.7709H35.4917C35.0109 7.7709 35.0625 7.37806 35.2498 6.7637C35.4445 6.1582 35.8737 4.86155 36.1008 4.16449C36.4341 3.03176 36.207 2.30664 35.0743 2.30664H34.592V2.30812Z" fill="white"/>
+                        <path d="M21.3652 7.12257C18.6692 7.12257 17.3123 7.58334 17.0454 8.44285C16.9406 8.79729 16.7637 9.46039 16.6516 9.86356C16.5336 10.2638 16.6619 10.5488 17.1368 10.5252C17.3846 10.5134 17.5527 10.4927 17.653 10.4809C18.5541 10.3864 18.9641 11.1528 18.7945 11.8957C18.6117 12.6444 15.4614 25.5356 15.2519 26.4158C14.9982 27.4348 15.2888 28.027 15.9658 28.027H17.2135C18.9081 28.027 19.2916 27.3772 19.4921 26.5502C19.6662 25.8443 23.8695 8.30255 23.9329 7.99242C24.0539 7.44156 23.6586 7.12109 22.3814 7.12109H21.3637L21.3652 7.12257Z" fill="white"/>
+                        <path d="M21.6724 0.939453C21.3081 0.939453 20.9453 1.24811 20.8657 1.62913L20.4837 3.41018C20.4055 3.80154 20.6371 4.11168 21.0028 4.11168H23.8198C24.19 4.11168 24.5513 3.80154 24.6295 3.41018L25.01 1.62913C25.0911 1.24811 24.8596 0.939453 24.4923 0.939453H21.6709H21.6724Z" fill="white"/>
+                        <path d="M44.8233 26.8873C44.8233 26.1253 44.8233 26.8873 44.8233 26.8873V12.0305C44.8233 9.55086 42.0874 11.1783 42.0874 9.38841V8.88629C42.0874 8.1464 42.5195 7.81264 43.6611 7.67382C44.8056 7.52466 46.2347 7.34301 47.0798 7.23668C47.9337 7.13035 48.3467 7.29132 48.4352 8.02678C48.4514 8.1656 48.4721 8.26012 48.506 8.57764C48.5694 9.16984 49.0487 9.79749 49.6697 9.49031C50.295 9.18461 53.8288 7.312 56.4938 7.312C59.1559 7.312 60.4863 9.63209 60.4863 9.63209H61.0452C61.0452 9.63209 64.8209 7.35778 68.7853 7.35778C72.5019 7.35778 73.3751 11.0247 73.3751 12.6921V26.7278C73.3751 27.4899 72.2144 28.0526 70.9607 28.0526C69.7882 28.0526 69.1584 27.5253 69.1584 26.8416V14.3875C69.1584 12.4248 68.5877 10.8903 66.9063 10.8903C63.9079 10.8903 61.2001 12.1383 61.2001 14.129V26.5728C61.2001 27.4884 60.0586 28.0511 58.6471 28.0511C57.2372 28.0511 56.9584 27.4057 56.9584 26.9361V14.3491C56.9584 12.6315 56.3272 10.9302 54.4438 10.9302C52.0825 10.9302 49.0384 12.1383 49.0384 14.4879V26.5344C49.0384 27.4397 47.8762 28.0511 46.6108 28.0511C45.3601 28.0511 44.8233 27.6538 44.8233 26.8859V26.8873Z" fill="white"/>
+                        <path d="M13.4119 38.0572C12.1243 38.0572 11.2807 37.1002 11.2807 35.6263C11.2807 34.3178 12.0388 33.1777 13.4517 33.1777C14.3484 33.1777 15.2495 33.7404 15.3557 34.69H14.9103C14.7673 33.9944 14.1965 33.5632 13.4384 33.5632C12.4031 33.5632 11.7187 34.3887 11.7187 35.6263C11.7187 36.8654 12.3927 37.6776 13.4251 37.6776C14.3602 37.6776 14.8779 37.0352 14.9752 36.1639H15.4147C15.3159 37.3173 14.5298 38.0572 13.4119 38.0572Z" fill="white"/>
+                        <path d="M4.69102 33.5691C5.4491 33.5691 5.94612 33.922 5.98447 34.6294H6.41808C6.37088 33.668 5.70572 33.1954 4.72347 33.1954C3.72351 33.1954 3.10112 33.6872 3.10112 34.4729C3.10112 35.3631 3.8347 35.5319 4.54149 35.6945L4.55975 35.6987C5.64673 35.9541 6.13786 36.0974 6.13786 36.7265C6.13786 37.3306 5.64673 37.6894 4.84293 37.6894C3.95211 37.6894 3.37692 37.2759 3.37692 36.412H2.95068V36.4518C2.95068 37.4457 3.65124 38.0498 4.80901 38.0498C5.6718 38.0498 6.56261 37.6894 6.56261 36.6807C6.56261 35.7503 5.81044 35.5539 4.78246 35.3309L4.76975 35.3281C4.03618 35.1657 3.52588 35.0527 3.52588 34.4463C3.52588 33.891 3.95801 33.5691 4.69102 33.5691Z" fill="white"/>
+                        <path d="M18.0547 38.0499C19.2582 38.0499 19.8481 37.4001 19.8481 36.2024L19.8496 36.2039V33.2886H19.4042V36.0724C19.4042 37.0353 19.1682 37.6777 18.0621 37.6777C16.9427 37.6777 16.6624 37.0737 16.6624 36.0783V33.2871H16.217V36.1891C16.217 37.4075 16.8321 38.0499 18.0547 38.0499Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M23.0147 33.2886C23.8391 33.2886 24.4659 33.6549 24.4659 34.5454C24.4659 35.1553 24.1252 35.5615 23.5574 35.6988C24.1444 35.8037 24.3347 36.1315 24.3745 36.7533C24.376 36.7789 24.3773 36.8141 24.3789 36.8562C24.3897 37.1461 24.4129 37.7692 24.5957 37.951H24.0928C23.9899 37.825 23.9756 37.4186 23.9655 37.1294C23.9625 37.0456 23.9599 36.9716 23.9556 36.9172C23.8966 36.04 23.5707 35.8686 22.7197 35.8686H21.3525V37.951H20.9056V33.2886H23.0147ZM21.351 35.5172L21.3525 35.5157H22.6666C23.3288 35.5157 24.0264 35.4034 24.0264 34.572C24.0264 33.8572 23.4704 33.6697 22.8687 33.6697H21.351V35.5172Z" fill="white"/>
+                        <path d="M32.6057 36.0252L34.4507 33.2871H33.9463L32.6381 35.2587C32.5865 35.3355 32.4877 35.4935 32.4021 35.6515C32.3716 35.6025 32.342 35.5534 32.3124 35.5044L32.2923 35.4711C32.2456 35.3939 32.1984 35.3167 32.147 35.2395L30.8447 33.2871H30.3152L32.1662 36.0252V37.951H32.6057V36.0252Z" fill="white"/>
+                        <path d="M39.8148 34.6294C39.775 33.922 39.2779 33.5691 38.5184 33.5691C37.7854 33.5691 37.3532 33.891 37.3532 34.4463C37.3532 35.0522 37.8641 35.1655 38.5952 35.3277L38.6098 35.3309C39.6363 35.5539 40.39 35.7503 40.39 36.6807C40.39 37.6894 39.4992 38.0498 38.6364 38.0498C37.4786 38.0498 36.778 37.4457 36.778 36.4518V36.412H37.2043C37.2043 37.2759 37.7795 37.6894 38.6688 37.6894C39.4711 37.6894 39.9637 37.3306 39.9637 36.7265C39.9637 36.0974 39.4711 35.9541 38.3871 35.6987L38.3696 35.6946C37.6626 35.532 36.93 35.3635 36.93 34.4729C36.93 33.6872 37.5509 33.1954 38.5508 33.1954C39.5316 33.1954 40.1997 33.668 40.2454 34.6294H39.8148Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M43.2232 38.0631C44.5373 38.0631 45.4266 37.0869 45.4266 35.6322C45.4266 34.1731 44.5314 33.1777 43.2291 33.1777C41.9209 33.1777 41.0374 34.1657 41.0374 35.6204C41.0374 37.081 41.9135 38.0631 43.2232 38.0631ZM43.2291 37.6776C42.176 37.6776 41.4828 36.858 41.4828 35.6071H41.4814C41.4814 34.3887 42.1819 33.5632 43.2217 33.5632C44.2748 33.5632 44.9812 34.3961 44.9812 35.6263C44.9812 36.858 44.2821 37.6776 43.2291 37.6776Z" fill="white"/>
+                        <path d="M51.7582 38.0499C52.9632 38.0499 53.5516 37.4001 53.5516 36.2024V33.2886H53.1077V36.0724C53.1077 37.0353 52.8717 37.6777 51.7656 37.6777C50.6462 37.6777 50.3659 37.0737 50.3659 36.0783V33.2871H49.9191V36.1891C49.9191 37.4075 50.537 38.0499 51.7582 38.0499Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M64.175 35.6322C64.175 37.0869 63.2857 38.0631 61.9701 38.0631C60.6604 38.0631 59.7844 37.081 59.7844 35.6204C59.7844 34.1657 60.6678 33.1777 61.9775 33.1777C63.2798 33.1777 64.175 34.1731 64.175 35.6322ZM60.2313 35.6071C60.2313 36.858 60.9244 37.6776 61.9775 37.6776C63.0305 37.6776 63.7311 36.858 63.7311 35.6263C63.7311 34.3961 63.0232 33.5632 61.9701 33.5632C60.9303 33.5632 60.2313 34.3887 60.2313 35.6071Z" fill="white"/>
+                        <path d="M68.2766 36.198C68.2766 36.5092 68.2876 36.818 68.2987 37.1293L68.2987 37.1294L68.2988 37.1303C68.3023 37.2281 68.3058 37.3262 68.3089 37.4247L68.3091 37.4282C68.1262 37.0944 67.9167 36.7666 67.7014 36.452L65.523 33.2886H65.0334V37.951H65.464V34.9382C65.464 34.5646 65.4581 34.1984 65.4316 33.8247C65.6027 34.1718 65.8254 34.4982 66.0481 34.8201L68.2117 37.951H68.7028V33.2886H68.2766V36.198Z" fill="white"/>
+                        <path d="M72.6289 34.6294C72.5906 33.922 72.0921 33.5691 71.334 33.5691C70.5995 33.5691 70.1688 33.891 70.1688 34.4463C70.1688 35.0525 70.6788 35.1656 71.4105 35.3279L71.424 35.3309C72.4519 35.5539 73.2041 35.7503 73.2041 36.6807C73.2041 37.6894 72.3148 38.0498 71.4505 38.0498C70.2927 38.0498 69.5937 37.4457 69.5937 36.4518V36.412H70.0184C70.0184 37.2759 70.5936 37.6894 71.4829 37.6894C72.2882 37.6894 72.7779 37.3306 72.7779 36.7265C72.7779 36.0974 72.2867 35.9541 71.2012 35.6987L71.1838 35.6946C70.4753 35.532 69.7411 35.3635 69.7411 34.4729C69.7411 33.6872 70.3621 33.1954 71.365 33.1954C72.3457 33.1954 73.0138 33.668 73.0581 34.6294H72.6289Z" fill="white"/>
+                        <path d="M10.6834 33.6682H7.89737V35.3503H10.5064V35.7239H7.89737V37.5699H10.7084V37.951H7.45196V33.2886H10.6834V33.6682Z" fill="white"/>
+                        <path d="M25.4674 37.951H25.9113V33.2871H25.4674V37.951Z" fill="white"/>
+                        <path d="M28.6206 33.6682H30.2547V33.2886H26.5411V33.6682H28.1767V37.951H28.6206V33.6682Z" fill="white"/>
+                        <path d="M46.2968 37.951H49.3586V37.5714H46.7422V33.2886H46.2968V37.951Z" fill="white"/>
+                        <path d="M56.1813 33.6682H57.8169V33.2886H54.1017V33.6682H55.7359V37.951H56.1813V33.6682Z" fill="white"/>
+                        <path d="M58.4452 37.951H58.8906V33.2871H58.4452V37.951Z" fill="white"/>
+                    </svg>
+                </div>
+                <div class="header__menu">
+                    <div class="menu__icon">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <nav>
+                        <a href="mega.html">
+                            Mega
+                            <div></div>
+                        </a>
+                        <a href="mega-light.html">
+                            Mega Light
+                            <div></div>
+                        </a>
+                        <a href="mega-keyboard.html">
+                            Mega Keyboard
+                            <div></div>
+                        </a>
+                        <a href="software.html">
+                            Приложения
+                            <div></div>
+                        </a>
+                        <a class="nav__contacts" href = "#">
+                            Контакты
+                            <div></div>
+                        </a>
+                    </nav>
+                </div>
+                <div class="header__spec-and-form">
+                    <button class="spec-and-form__spec-button">
+                        Спецификация
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="17" viewBox="0 0 10 17" fill="none">
+                            <path d="M1 8L5 12L9 8" stroke="#E3E3E3" stroke-width="1.5"/>
+                        </svg>
+                    </button>
+                    <div class="spec-and-form__spec-box">
+                        <a href="https://ritm.ru/documentation/pasports/Mega/pasport_Mega_v.4.docx.pdf" target="_blank">
+                            <img src="Ritm_src/img/spec_64.svg" alt="">
+                            <p>Mega</p>
+                        </a>
+                        <a href="https://ritm.ru/documentation/pasports/Mega/pasport_Mega_Light.docx.pdf" target="_blank">
+                            <img src="Ritm_src/img/spec_64.svg" alt="">
+                            <p>Mega Light</p>
+                        </a>
+                        <a href="https://ritm.ru/documentation/pasports/Mega/pasport_Mega_Light_433_v.4.pdf" target="_blank">
+                            <img src="Ritm_src/img/spec_64.svg" alt="">
+                            <p>Mega <span style="white-space: nowrap;">Light 433</span></p>
+                        </a>
+                        <a href="https://ritm.ru/documents/" target="_blank">
+                            <img src="Ritm_src/img/spec_64.svg" alt="">
+                            <p>Mega Keyboard</p>
+                        </a>
+                        <a href="https://ritm.ru/documents/" target="_blank">
+                            <img src="Ritm_src/img/spec_64.svg" alt="">
+                            <p>Mega <span style="white-space: nowrap;">Keyboard 433</span></p>
+                        </a>
+                    </div>
+                    <button class="spec-and-form__form-button form-btn">Оформить заказ</button>
+                </div>
+            </div>
+        </header>
+        <div class="form-block">
+            <div class="form-block__form-box">
+                <div class="form-box__form-title">
+                    <p>Оформить заказ</p>
+                    <div class="form-title__cross">
+                        <img src="Ritm_src/img/form_cross.svg" alt="">
+                    </div>
+                </div>
+                <form name="main" action="#" method="post" enctype="multipart/form-data">
+                    <p class="form__input-label">Имя*</p>
+                    <input type="text" name="userName" value="" placeholder="Александр">
+                    <p class="form__input-label">Организация</p>
+                    <input type="text" name="orgName" value="" placeholder="ООО Название">
+                    <p class="form__input-label">Телефон*</p>
+                    <input type="tel" name="userTel" value="" placeholder="+7 000 000 00 00">
+                    <p class="form__input-label">Email*</p>
+                    <input type="email" name="userMail" value="" placeholder="Primeremail@mail.ru">
+                    <button class="form__button">Оформить заказ</button>
+                </form>
+            </div>
+        </div>
+        <div id="smooth-wrapper">
+            <div id="smooth-content">
+                <div class="block1">
+                    <div class="container">
+                        <h2 class="title_1">Уникальная</h2>
+                        <h2 class="title_2">разработка Ritm</h2>
+                    </div>
+                </div>
+                <div class="block2">
+                    <div class="container">
+                        <h2 class="title">
+                            Настоящая инновация
+                            <span style="white-space: nowrap;">на рынке</span>
+                            <span style="white-space: nowrap;">охранных систем</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="block5">
+                    <div class="container">
+                        <h2>Mega — новая эпоха для лучших охранных компаний</h2>
+                        <video preload="auto" playsinline muted>
+                            <source src="Ritm_Main/Main_video/mainVideo.webm" type="video/webm">
+                            <source src="Ritm_Main/Main_video/mainVideo.mp4" type="video/mp4">
+                        </video>
+                        <button class="restart-video"></button>
+                    </div>
+                </div>
+                <div class="block6">
+                    <div class="container">
+                        <div class="block6__title">
+                            <h2>Выбери свою Mega - новая линейка оборудования <span style="white-space: nowrap;">во вселенной</span> RITM.</h2>
+                        </div>
+                        <div class="block6__product-line">
+                            <div class="anim-card anim-item">
+                                <div class="product-line__product product_1">
+                                    <picture>
+                                        <source srcset="Ritm_Main/Main_img/block6_mega.webp" type="image/webp">
+                                        <img class="product__img" src="Ritm_Main/Main_img/block6_mega.png" alt="">
+                                    </picture>
+                                    <p class="product__title1">Mega</p>
+                                    <p class="product__title2">Модульный охранный прибор</p>
+                                    <div class="product__technical-specifications">
+                                        <div>
+                                            <p>2 SIM карты + Ethernet</p>
+                                            <img src="Ritm_Main/Main_img/block6_sim-card.svg" alt="">
+                                        </div>
+                                        <div class="technical-specifications__wireless-zone">
+                                            <p>80 проводных / беспроводных зон</p>
+                                            <img src="Ritm_Main/Main_img/block6_wireless-zone.svg" alt="">
+                                        </div>
+                                        <div>
+                                            <p>Блок питания <span style="white-space: nowrap;">2.5 А 12 В</span></p>
+                                            <img src="Ritm_Main/Main_img/block6_power-unit.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <a class="product__more" href="mega.html">
+                                        Узнать больше
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="17" viewBox="0 0 10 17" fill="none">
+                                            <path d="M1 8L5 12L9 8" stroke="#E3E3E3" stroke-width="1.5"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="anim-card anim-item">
+                                <div class="product-line__product product_2">
+                                    <picture>
+                                        <source srcset="Ritm_Main/Main_img/block6_mega-light.webp" type="image/webp">
+                                        <img class="product__img" src="Ritm_Main/Main_img/block6_mega-light.png" alt="">
+                                    </picture>
+                                    <p class="product__title1">Mega Light</p>
+                                    <p class="product__title2">Проводной охранный прибор</p>
+                                    <div class="product__technical-specifications">
+                                        <div>
+                                            <p>2 SIM карты</p>
+                                            <img src="Ritm_Main/Main_img/block6_sim-card.svg" alt="">
+                                        </div>
+                                        <div class="technical-specifications__wireless-zone">
+                                            <p>16 проводных зон</p>
+                                            <img src="Ritm_Main/Main_img/block6_wireless-zone.svg" alt="">
+                                        </div>
+                                        <div>
+                                            <p>Адаптер питания <span style="white-space: nowrap;">1А 12B</span></p>
+                                            <img src="Ritm_Main/Main_img/block6_power-unit.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <a class="product__more" href="mega-light.html">
+                                        Узнать больше
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="17" viewBox="0 0 10 17" fill="none">
+                                            <path d="M1 8L5 12L9 8" stroke="#E3E3E3" stroke-width="1.5"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="anim-card anim-item">
+                                <div class="product-line__product product_3">
+                                    <picture>
+                                        <source srcset="Ritm_Main/Main_img/block6_mega-light433.webp" type="image/webp">
+                                        <img class="product__img" src="Ritm_Main/Main_img/block6_mega-light433.png" alt="">
+                                    </picture>
+                                    <p class="product__title1">Mega Light 433</p>
+                                    <p class="product__title2">Беспроводной охранный прибор</p>
+                                    <div class="product__technical-specifications">
+                                        <div>
+                                            <p>2 SIM карты</p>
+                                            <img src="Ritm_Main/Main_img/block6_sim-card.svg" alt="">
+                                        </div>
+                                        <div class="technical-specifications__wireless-zone">
+                                            <p>32 беспроводных зоны</p>
+                                            <img src="Ritm_Main/Main_img/block6_wireless-zone.svg" alt="">
+                                        </div>
+                                        <div>
+                                            <p>Адаптер питания <span style="white-space: nowrap;">1А 12B</span></p>
+                                            <img src="Ritm_Main/Main_img/block6_power-unit.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <a class="product__more" href="mega-light.html">
+                                        Узнать больше
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="17" viewBox="0 0 10 17" fill="none">
+                                            <path d="M1 8L5 12L9 8" stroke="#E3E3E3" stroke-width="1.5"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="anim-card anim-item">
+                                <div class="product-line__product product_4">
+                                    <picture>
+                                        <source srcset="Ritm_Main/Main_img/block6_mega-keyboard.webp" type="image/webp">
+                                        <img class="product__img" src="Ritm_Main/Main_img/block6_mega-keyboard.png" alt="">
+                                    </picture>
+                                    <p class="product__title1">Mega Keyboard</p>
+                                    <div class="product__title2">
+                                        <p>Охранный прибор в корпусе клавиатуры</p>
+                                        <span>проводной | беспроводной</span>
+                                    </div>
+                                    <div class="product__technical-specifications">
+                                        <div>
+                                            <p>2 SIM карты</p>
+                                            <img src="Ritm_Main/Main_img/block6_sim-card.svg" alt="">
+                                        </div>
+                                        <div class="technical-specifications__wireless-zone">
+                                            <p style="font-size: 14px;">8 проводных или <span style="white-space: nowrap;">32 беспроводных</span> зоны</p>
+                                            <img src="Ritm_Main/Main_img/block6_wireless-zone.svg" alt="">
+                                        </div>
+                                        <div>
+                                            <p>
+                                                Адаптер <span style="white-space: nowrap;">1 А 12 В</span>
+                                                + <span style="white-space: nowrap;">АКБ 18650</span>
+                                            </p>
+                                            <img src="Ritm_Main/Main_img/block6_power-unit.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <a class="product__more" href="mega-keyboard.html">
+                                        Узнать больше
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="17" viewBox="0 0 10 17" fill="none">
+                                            <path d="M1 8L5 12L9 8" stroke="#E3E3E3" stroke-width="1.5"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <footer>
+                    <div class="container">
+                        <div class="footer__footer-order">
+                            <div class="footer-order__order-text">
+                                <p class="order-text__title">Попробуй прямо сейчас. Выбери свое решение.</p>
+                                <p class="order-text__text">
+                                    Оставьте заявку
+                                    <span style="white-space: nowrap;">на сайте</span>
+                                    <span style="white-space: nowrap;">или позвоните нам.</span>
+                                </p>
+                            </div>
+                            <button class="footer-order__form-button form-btn">Оформить заказ</button>
+                        </div>
+                        <div class="footer__footer-contacts">
+                            <div class="footer-contacts__address">
+                                <div class="address__sp1">
+                                    <p>Санкт-Петербург пр. Энергетиков д.30 к.8</p>
+                                </div>
+                                <div class="address__sp2">
+                                    <p class="city">Санкт-Петербург</p>
+                                    <p class="phone-number">+7 812 325-01-02</p>
+                                </div>
+                                <div class="address__moscow">
+                                    <p class="city">Москва</p>
+                                    <p class="phone-number">+7 495 609-03-32</p>
+                                </div>
+                                <div class="address__almaty">
+                                    <p class="city">Алматы</p>
+                                    <p class="phone-number">+7 777 226-91-91</p>
+                                </div>
+                            </div>
+                            <div class="sp-button">Навигация по сайту</div>
+                            <div class="footer-contacts__links sp-content">
+                                <a href="mega.html">
+                                    Mega
+                                    <div></div>
+                                </a>
+                                <a href="mega-light.html">
+                                    Mega Light
+                                    <div></div>
+                                </a>
+                                <a href="mega-keyboard.html">
+                                    Mega Keyboard
+                                    <div></div>
+                                </a>
+                                <a href="software.html">
+                                    Приложения
+                                    <div></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer__copyright">
+                            <p>
+                                Разнообразный и богатый опыт говорит нам, <span style="white-space: nowrap;">что инновационное</span>
+                                развитие и технологический прогресс - основа ресурсосберегающих технологий
+                            </p>
+                            <span class="copyright__ritm">© 2022 Компания "Ритм"</span>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script src="Ritm_src/js/gsap.min.js"></script>
+        <script src="Ritm_src/js/ScrollTrigger.min.js"></script>
+        <script src="Ritm_src/js/ScrollSmoother.min.js"></script>
+        <script src="Ritm_src/js/common.js"></script>
+        <script src="Ritm_Main/Main.js"></script>
+    </body>
+</html>

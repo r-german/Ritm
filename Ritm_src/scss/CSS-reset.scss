@@ -1,0 +1,71 @@
+*{
+    padding: 0; 
+    margin: 0; 
+    border: 0;
+}
+
+*, *::before, *::after{box-sizing: border-box;}
+
+@font-face {
+    font-family: "Inter-Light";
+    src: url("../Ritm_src/fonts/Inter-LightBETA.woff2");
+}
+@font-face {
+    font-family: "Inter-Regular";
+    src: url("../Ritm_src/fonts/Inter-Regular.woff2");
+}
+@font-face {
+    font-family: "Inter-Medium";
+    src: url("../Ritm_src/fonts/Inter-Medium.woff2");
+}
+@font-face {
+    font-family: "Inter-SemiBold";
+    src: url("../Ritm_src/fonts/Inter-SemiBold.woff2");
+}
+@font-face {
+    font-family: "Inter-Bold";
+    src: url("../Ritm_src/fonts/Inter-Bold.woff2");
+}
+@font-face {
+    font-family: "SFProDisplay-Medium";
+    src: url("../Ritm_src/fonts/SFProDisplay-Medium.woff2");
+}
+
+html, body{
+    line-height: 1;
+    font-size: 16px;
+    font-family: "Inter-Regular";
+    color: white;
+    background-color: rgb(5, 15, 32);
+    text-size-adjust: 100%;
+}
+
+body._lock{overflow: hidden;}
+
+.container{
+    max-width: 1896px;
+    margin: 0px auto;
+}
+
+:focus{outline: none;}
+
+input, button, input::placeholder{font: inherit;}
+
+input, input:focus{appearance: none;}
+
+input::placeholder{color: rgba(0, 0, 0, 0.6);}
+
+button{
+    cursor: pointer;
+    color: inherit;
+    border-radius: 67px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#smooth-content{will-change: transform;}
+
+@import "form.scss";
